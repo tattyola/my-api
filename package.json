@@ -1,0 +1,11 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "api tests",
+  "scripts": {
+    "test": "nmp mocha --config.mocharc.js"
+  },
+  "keywords": [],
+  "author": "tatty",
+  "license": "ISC"
+}
