@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "api tests",
   "scripts": {
-    "test": "nmp mocha --config.mocharc.js"
+    "test": "npx mocha --config.mocharc.js"
   },
   "keywords": [],
   "author": "tatty",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
 }
