@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-import supertest from 'supertest';
 import AuthHelper from '../helpers/auth.helper';
 
 
